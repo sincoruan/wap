@@ -2,6 +2,7 @@ body{
 	margin: 3px;
 	padding:4px;
 	background-color:#585545;
+	letter-spacing:1px;
 	font-family:Arial,"Arial Black", Verdana, "Trebuchet MS",Georgia, Tahoma, "Courier New", "Times New Roman";
 }
 h1,h3{
