@@ -21,11 +21,20 @@ em{
 	color:yellow;
 }
 
-#movies em{
+a{
 	color:red;
-	text-decoration:underline;	
+	text-decoration:none; 
 }
 
 #describe{
 	font-style:italic	
+}
+
+h3::first-letter{
+	font-size: 200%;
+}
+
+dt{
+	color:yellow;
+	font-bold
 }
