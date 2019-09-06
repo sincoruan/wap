@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+    width: 1000px;
+}
+#headdiv{
+    font-weight: bold;
+    background-color: cadetblue;
+    height:40px;
+    padding: 10px;
+}
+#select1{
+    background-color: cadetblue;
+    border:hidden;
+    width:100px;
+}
+.subtitle{
+    text-decoration:underline;
+    font-family: "Microsoft Tai Le";
+}
+section{
+    display: flex;
+    align-items: center;
+}
+#leftdiv{
+    display: grid;
+    width: 450px;
+    grid-template-columns:1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#rightdiv{
+    display: grid;
+    width: 450px;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 5;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+input{
+    width: 200px;
+    margin: 10px;
+    height: 15px;
+}
+textarea{
+    margin: 10px;
+    width: 200px;
+    height: 80px;
+    rows:5;
+}
+em{
+    color:red;
+}
+select{
+    margin: 15px;
+    width: 200px;
+}
+label{
+    margin: 15px;
+    font-size: 0.5em;
+    width: 160px;
+    font-weight: bold;
+}
+.paybox{
+    position: relative;
+    left: 0;
+    border:red 1px solid;
+    text-align: left;
+    width: 30px;
+}
+#paymode{
+    align:left;
+}
+footer{
+    clear:left;
+    background-color: gray;
+    display: flex;
+    align-self: center;
+    height: 50px;
+}
+.last{
+    height: 20px;
+    margin:0;
+    background-color: darkseagreen;
+}
+#footdiv{
+    margin: auto;
+    padding: 0px;
+}
+#last{
+    height: 30px;
+    width:100px;
+}
