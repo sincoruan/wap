@@ -1,0 +1,32 @@
+
+
+h1{
+	background-color:grey;
+}
+h2{
+	background-color:rgb(204, 211, 204);
+}
+h3{
+
+}
+h3::first-letter{
+	font-size: 150%;
+}
+.intro{
+	border: 1px black solid;
+	background:transparent url(1.jpg) top left;
+}
+.main{
+	border: 1px black solid;
+	background:transparent  url(1.jpg) top left;
+}
+.explanation{
+	float:left;
+}
+.participation{
+}
+.benefits{
+}
+.sidebar{
+	background:transparent  url(3.jpg) top left;
+}
