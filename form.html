@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<link href="form.css" type="text/css" rel="stylesheet"/>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="form.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>ticket booking</h1>
+        <form>
+            <label>Name</label><input type="text" id="Name"/><br/>
+            <label>Street</label><input type="text" id="Street"/><br/>
+            <label>State</label><input type="text" id="State"/><br/>
+            <label>ZipCode</label><input type="text" id="ZipCode"/><br/>
+            <label>How many seats?</label><input type="text" id="Seats"/><br/>
+            <fieldset>
+                <legend>which taxi do you require?</legend>
+                <label><input type="radio" name="ra1"/>Car</label><br/>
+                <label><input type="radio" name="ra1"/>Van</label><br/>
+                <label><input type="radio" name="ra1"/>Tuk Tuk</label>
+            </fieldset>
+            <fieldset>
+                <legend>Extras</legend>
+                <label><input type="checkbox" name="BabySeat"/>Baby Seat</label><br/>
+                <label><input type="checkbox" name="Wheelchar"/>Wheelchar Access</label><br/>
+                <label><input type="checkbox" name="Stock"/>Stock Tip</label>
+            </fieldset>
+            <label>special instructions</label><input type="textarea" id="special"/><br/>
+            <input type="submit"/>
+        </form>
+
+    </body>
+</html>
